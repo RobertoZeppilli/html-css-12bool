@@ -1,0 +1,53 @@
+/* colors */
+.bg-gradient {
+    background: linear-gradient(black, #202E75);
+}
+
+.bg-gradient-inverse {
+    background: linear-gradient(#202e75, black)
+}
+
+.avocado-gradient {
+    background: linear-gradient(black, lightgreen, yellow);
+}
+
+.avocado-gradient-inverse {
+    background: linear-gradient(yellow, lightgreen, black)
+}
+
+.green-90{
+    background: linear-gradient(90deg, black,lightgreen, yellow)
+}
+
+.green-minus-90 {
+    background: linear-gradient(-90deg, black, lightgreen, yellow)
+}
+
+.yellow {
+    background: linear-gradient(90deg, yellow, #ffff66, yellow)
+}
+
+.brown {
+    background: linear-gradient(brown, #B37320, brown)
+}
+
+.blue {
+    background: #202e75;
+}
+
+.shadow {
+    background-color: black;
+}
+
+/* body */
+body {
+    text-align : center;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    /* color: #cecece; */
+}
+
+p {
+    color: #cecece;
+    letter-spacing: 5px;
+}
