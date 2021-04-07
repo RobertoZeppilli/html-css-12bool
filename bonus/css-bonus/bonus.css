@@ -51,6 +51,11 @@
     background-color: black;
 }
 
+.bubble {
+    background: linear-gradient(90deg, white, #b37320, #b37320);
+    
+}
+
 /* body */
 body {
     text-align : center;
@@ -62,3 +67,6 @@ p {
     color: #cecece;
     letter-spacing: 5px;
 }
+
+
+
