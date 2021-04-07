@@ -4,7 +4,7 @@
 }
 
 .bg-gradient-inverse {
-    background: linear-gradient(#202e75, black)
+    background: linear-gradient(#202e75, black);
 }
 
 .avocado-gradient {
@@ -12,23 +12,35 @@
 }
 
 .avocado-gradient-inverse {
-    background: linear-gradient(yellow, lightgreen, black)
+    background: linear-gradient(yellow, lightgreen, black);
 }
 
 .green-90{
-    background: linear-gradient(90deg, black,lightgreen, yellow)
+    background: linear-gradient(90deg, black,lightgreen, yellow);
 }
 
 .green-minus-90 {
-    background: linear-gradient(-90deg, black, lightgreen, yellow)
+    background: linear-gradient(-90deg, black, lightgreen, yellow);
 }
 
 .yellow {
-    background: linear-gradient(90deg, yellow, #ffff66, yellow)
+    background: linear-gradient(90deg, yellow, #ffff66, yellow);
 }
 
+.brown-inverse {
+    background: linear-gradient(brown, #b37320);
+}
 .brown {
-    background: linear-gradient(brown, #B37320, brown)
+    background: #b37320;
+}
+.brown-outverse {
+    background: linear-gradient(#b37320, brown);
+}
+.brown-90 {
+    background: linear-gradient(90deg, brown, #b37320);
+}
+.brown-minus-90 {
+    background: linear-gradient(-90deg, brown, #b37320);
 }
 
 .blue {
@@ -44,7 +56,6 @@ body {
     text-align : center;
     font-size: 60px;
     font-family: 'Orbitron', sans-serif;
-    /* color: #cecece; */
 }
 
 p {
